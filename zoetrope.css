@@ -1,0 +1,269 @@
+
+/* CSS básico do body */
+
+body{
+    background-color: #2F5D62;
+    font-family: 'NotoSansJP', sans-serif;
+    font-size: 24px;
+    color: beige;
+}
+
+/* CSS básico do header */
+
+header{
+    background-color: #5E8B7E;
+    font-size: 30px;
+    padding: 0px;  
+}
+
+/* CSS das classes e ids do header */
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.produto{
+    margin: 80px 0px 0px 310px;
+}
+
+.logo{
+    width: 200px;
+    margin-left: 200px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 65px;
+}
+
+#login{
+    margin-left: 125px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #A7C4BC;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-style: unset;
+    cursor: pointer;
+  }
+
+#login:hover{
+    transition: 0.5s;
+    transform: scale(1.2)
+}
+
+#cadastro{
+    margin-left: 75px;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #A7C4BC;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-style: unset;
+    cursor: pointer;
+}
+
+#cadastro:hover{
+    transition: 0.5s;
+    transform: scale(1.2)
+}
+
+/* CSS básico da primeira section */
+
+.intro{
+    padding: 20px;
+}
+
+/* CSS das classes e ids da primeira section */
+
+#conecta{
+    text-align: center;
+}
+
+.expo1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homepage{
+    margin: 90px 0px 0px 250px;
+    width: 241px;
+    height: 422px;
+    border: #CCF solid 4px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+p {
+    margin: 250px 200px 0px 170px;
+    text-align: justify;
+}
+
+
+#contato{
+    margin-left: 780px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #A7C4BC;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-style: unset;
+    cursor: pointer;
+}
+
+#contato:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.expo2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topicos{
+    margin: 200px 0px 0px 250px;
+    text-align: left;
+    list-style-type: disc;
+    display: inline-block;
+}
+
+#beneficios{
+    margin: -100px 0px 100px 0px;
+}
+
+.items{
+    margin-bottom: 20px;
+}
+
+.movie-selection{
+    margin: 80px 400px 0px 270px;
+    width: 241px;
+    height: 422px;
+    border: #CCF solid 4px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#baixar{
+    margin: 30px 0px 0px 270px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #A7C4BC;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-style: unset;
+    cursor: pointer;
+}
+
+#baixar:hover{
+    transition: 0.5s;
+    transform: scale(1.2)
+}
+
+/* CSS das classes e ids da segunda section */
+
+.expo3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile{
+    margin: 80px 0px 0px 230px;
+    width: 241px;
+    height: 422px;
+    border: #CCF solid 4px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.messages{
+    margin: 80px 250px 0px 0px;
+    width: 241px;
+    height: 422px;
+    border: #CCF solid 4px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#conta{
+    margin: 30px 0px 50px 330px; 
+    width: 800px;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #A7C4BC;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-style: unset;
+    cursor: pointer;
+}
+
+#conta:hover{
+    transition: 0.5s;
+    transform: scale(1.2)
+}
+
+ /* Apêndice - CSS para as imagens da Landing Page */
+
+figure {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+}
+
+figcaption{
+    color: white;
+    font-style: italic;
+}
+
+#home{
+    padding: 5px 0px 0px 250px;
+}
+
+#movie{
+    padding: 5px 130px 0px 0px;
+}
+
+#prof{
+    padding: 5px 0px 0px 230px;
+}
+
+#message{
+    padding: 5px 250px 0px 0px;
+}
+
+
+
+
